@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="memo.css">
+<title>Memo</title>
+<script src="memo.js"></script>
+</head>
+<body>
+    <div style="height: 20%"></div>
+    <div id="dvStart">
+        <form onsubmit="startGame(); return false;">
+            <select id="opGame">
+                <option value="0">Small</option>
+                <option value="1">Acerage</option>
+                <option value="2">Large</option>
+                <option value="3">XtraLarge</option>
+            </select>
+            <input type="submit" value="Start!">
+        </form>
+    </div>
+    <div id="dvBoard">
+        <table id="tbBoard">
+        </table>
+    </div>
+    <div id="dvConsole">
+    </div>
+    <div style="height: 20%"></div>
+</body>
+</html>

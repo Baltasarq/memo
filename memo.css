@@ -1,0 +1,20 @@
+// memo.css
+
+body {
+    margin: 10px;
+    padding 5px;
+}
+
+#tbBoard {
+    padding: 5px;
+    border: 5px solid navy;
+    width: 100%;
+}
+
+#dvConsole {
+    display: none;
+    height: 20%;
+    color: white;
+    background-color: black;
+    overflow: scroll;
+}
