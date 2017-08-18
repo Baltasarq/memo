@@ -5,10 +5,56 @@ body {
     padding 5px;
 }
 
+.cellClass {
+    height: 64px;
+    width: 64px;
+    vertical-align: middle;
+    align-text: center;
+    margin: auto;
+}
+
+#dvStart {
+    padding: 5px;
+    margin: 10px;
+    font-size: 18pt;
+}
+
 #tbBoard {
     padding: 5px;
     border: 5px solid navy;
     width: 100%;
+}
+
+#dvScore, #dvEndGame {
+    padding: 5px;
+    width: 100%;
+    font-family: sans;
+    font-weight: bold;
+    font-size: 14pt;
+    color: navy;
+}
+
+#dvEndGame {
+    background-color: red;
+    color: white;
+    display: none;
+    width: 75%;
+    margin: auto;
+}
+
+.buttonClass {
+    background-color: white;
+    color: red;
+    font-size: 16;
+    font-weight: bold;
+}
+
+#dvFooter {
+    font-style: italic;
+    font-size: 10pt;
+    margin: auto;
+    text-align: right;
+    margin: 10px;
 }
 
 #dvConsole {
@@ -17,4 +63,5 @@ body {
     color: white;
     background-color: black;
     overflow: scroll;
+    font-family: mono;
 }

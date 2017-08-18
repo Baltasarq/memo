@@ -6,16 +6,21 @@
 <script src="memo.js"></script>
 </head>
 <body>
+    <div id="dvHeader">
+    <h1>Memory game: Find the couples!</h1>
+    </div>
     <div style="height: 20%"></div>
     <div id="dvStart">
+        <p><i>Find the couples by clicking on each card to turn it up.
+              Turn up two with the same drawing to discover the couple!</i></p>
         <form onsubmit="startGame(); return false;">
-            <select id="opGame">
+            <select id="opGame" class="buttonClass">
                 <option value="0">Small</option>
-                <option value="1">Acerage</option>
+                <option value="1">Average</option>
                 <option value="2">Large</option>
                 <option value="3">XtraLarge</option>
             </select>
-            <input type="submit" value="Start!">
+            <input type="submit" value="Start!" class="buttonClass">
         </form>
     </div>
     <div id="dvBoard">
@@ -24,6 +29,13 @@
     </div>
     <div id="dvConsole">
     </div>
-    <div style="height: 20%"></div>
+    <div id="dvScore">
+    </div>
+    <div id="dvEndGame">
+    </div>
+    <div id="dvFooter">
+    (c) baltasarq 2017 MIT License <a target="_blank" href="http://github.com/baltasarq/memo/">
+    http://github.com/baltasarq/memo/</a>
+    </div>
 </body>
 </html>
