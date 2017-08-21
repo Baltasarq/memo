@@ -7,7 +7,7 @@
 var game = {
     "remaining": 0,
     "debug": false,
-    "widths": [4, 6, 8, 16],
+    "widths": [4, 5, 6, 7],
     "width": 0,
     "board": [],
     "numClicks": 0,
@@ -115,6 +115,7 @@ var game = {
                     --this.remaining;
                     
                     if ( this.remaining <= 0 ) {
+                        this.remaining = 0;
                         this.endGame();
                     }
                 }
